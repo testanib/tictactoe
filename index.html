@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - V2 websecp1</title>
+  <script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.21.0/firebase-database.js"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id = "game">
+  <h1 id "name">TikTacToe</h1>
+  <label id="p1name">Player 'X' Name:</label>
+  <input class="names" autofill="off" autocomplete="off" id="p1nameTextBox" placeholder="Player1" data-index=0 />
+  <label id="p2name">Player 'O' Name:</label>
+  <input class="names" id="p2nameTextBox" placeholder="Player2" autofill="off" autocomplete="off" data-index=1 />
+  <button id="startbutton">Start</button>
+</div>
+
+<div id = "end">
+  <button id="endbutton">End</button>
+</div>
+
+
+<script src="jquery.disable-autofill.js"></script>
+<script>
+  $('input[autofill="off"]').disableAutofill();
+</script>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script><script type="module" src="./script.js"></script>
+
+</body>
+</html>
