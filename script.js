@@ -85,7 +85,7 @@ let restart = function(){
   getNameInput();
   setNameInput();
   //codepen wont allow hard refresh
-  //document.location.reload(true);
+  document.location.reload(true);
 }
 
 $("#endbutton").click(function(){
